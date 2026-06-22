@@ -1,6 +1,6 @@
 const menuData = {
     Burger: {
-        image: "images/burger.png",
+        image: "images/Burger.png",
         description: "Fresh bun with crispy veg patty, fresh vegetables and our special signature sauces.",
         options: [
             "Veg Burger — ₹99",
@@ -10,7 +10,7 @@ const menuData = {
     },
 
     Pizza: {
-        image: "images/pizza.png",
+        image: "images/Pizza.png",
         description: "Freshly baked pizza loaded with cheese and delicious toppings.",
         options: [
             "Margherita — ₹149",

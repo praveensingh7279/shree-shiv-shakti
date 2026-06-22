@@ -731,3 +731,78 @@ html{
     left:35%;
     width:90px;
 }
+/* ==========================
+   MOBILE RESPONSIVE DESIGN
+========================== */
+
+@media (max-width:768px){
+
+/* Navbar */
+
+.navbar{
+    padding:15px;
+    flex-wrap:wrap;
+}
+
+.logo{
+    width:55px;
+}
+
+.logo-text{
+    font-size:20px;
+}
+
+/* Navigation */
+
+.nav-links{
+    gap:18px;
+    font-size:16px;
+}
+
+/* Hero */
+
+.hero{
+    min-height:100vh;
+    padding:120px 20px 50px;
+}
+
+.hero-logo{
+    width:170px;
+}
+
+.hero h1{
+    font-size:60px;
+    line-height:1.1;
+}
+
+.hero h3{
+    font-size:22px;
+    letter-spacing:4px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+/* Buttons */
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.hero-buttons a{
+    width:220px;
+    text-align:center;
+}
+
+/* Floating Images */
+
+.floating{
+    width:70px;
+    opacity:.12;
+}
+
+}
