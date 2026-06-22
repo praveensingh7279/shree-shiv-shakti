@@ -740,6 +740,15 @@ html{
 /* Navbar */
 
 .navbar{
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-links{
+    display:none;
+
     padding:15px;
     flex-wrap:wrap;
 }
