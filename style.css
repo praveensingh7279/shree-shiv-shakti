@@ -772,11 +772,12 @@ html{
 
 .hero{
     min-height:100vh;
-    padding:120px 20px 50px;
+    padding:280px 20px 60px;
 }
 
 .hero-logo{
-    width:170px;
+    width:140px;
+    margin-bottom:20px;
 }
 
 .hero h1{
